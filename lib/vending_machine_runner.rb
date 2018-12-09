@@ -9,7 +9,15 @@ end
 def user_input
   gets.chomp
 end
-
+#pass in objects into the vending machine
+#machine = Machine.new
+#machine.slots
+#machine.add_slot
+#slot = Slot.new
+# items = data[:contents].map
+#   Item.new(c)
+# end
+#slot.add_items(items)
   def valid_coin(coin_input)
     coins = [1,5,10,25]
     if coins.include?(coin_input)

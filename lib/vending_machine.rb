@@ -4,7 +4,6 @@ require 'json'
 require 'pry'
 
 class VendingMachine
-  # attr_reader :vending_data
 
   def initialize(vending_data)
     @vending_data = Reader.new.read_data
@@ -13,13 +12,3 @@ class VendingMachine
     end
   end
 end
-
-#pass in objects into the vending machine
-#machine = Machine.new
-#machine.slots
-#machine.add_slot
-#slot = Slot.new
-# items = data[:contents].map
-#   Item.new(c)
-# end
-#slot.add_items(items)
